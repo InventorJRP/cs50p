@@ -1,4 +1,9 @@
-students = ["Hermione", "Harry", "Ron"]
+def main():
+    printSquare(3)
 
-for i in students:
-    print(i)
+def printSquare(size):
+    for i in range(size):
+        print("#" * size)
+
+
+main()
